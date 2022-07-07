@@ -1,3 +1,66 @@
 * {
-    color: rgb(192, 19, 54);
+  line-height: 1.6em;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+color: blueviolet;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box-1 {
+  color: aliceblue;
+  background-color: black;
+  border: 5px red solid;
+  border-style: groove;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box-1 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 450;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.box-1 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.box-2 {
+  border: 5px dotted rgb(133, 33, 33);
+  padding: 20px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.categories {
+  border: 3px red solid;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: lower-greek;
+}
+
+.categories li {
+    padding-bottom: 8px;
 }
